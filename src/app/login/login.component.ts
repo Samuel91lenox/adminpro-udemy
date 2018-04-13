@@ -52,7 +52,7 @@ export class LoginComponent implements OnInit {
       // let profile = googleUser.getBasicProfile();
       // console.log(profile);
       let token = googleUser.getAuthResponse().id_token;
-       console.log(token);
+      //  console.log(token);
        this._servicioUsuario.loginGoogle(token)
          .subscribe(()=>window.location.href='#/dashboard');
 
