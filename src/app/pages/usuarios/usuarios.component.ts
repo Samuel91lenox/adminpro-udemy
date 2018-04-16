@@ -7,8 +7,7 @@ declare var swal:any;
 
 @Component({
   selector: 'app-usuarios',
-  templateUrl: './usuarios.component.html',
-  styles: []
+  templateUrl: './usuarios.component.html'
 })
 export class UsuariosComponent implements OnInit {
 
